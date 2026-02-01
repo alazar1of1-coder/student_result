@@ -1,0 +1,47 @@
+/* Additional CSS styles */
+
+/* Small action buttons */
+.action-btn.small {
+    padding: 6px 12px;
+    font-size: 14px;
+    margin: 2px;
+    display: inline-block;
+}
+
+/* Delete button style */
+.delete {
+    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+}
+
+.delete:hover {
+    background: linear-gradient(135deg, #ddd6d6 0%, #bd2130 100%);
+}
+
+/* Form enhancements */
+.form-group small {
+    display: block;
+    color: #666;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+input:invalid, select:invalid {
+    border-color: #dc3545;
+}
+
+input:valid, select:valid {
+    border-color: #28a745;
+}
+
+/* Table actions column */
+table td:last-child {
+    white-space: nowrap;
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
